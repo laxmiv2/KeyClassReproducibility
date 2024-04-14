@@ -1,4 +1,5 @@
 # Ignore folders
+data/*
 datasets/*
 models/*
 dev_scripts/*
@@ -85,7 +86,7 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+#.ipynb_checkpoints
 
 # IPython
 profile_default/
@@ -119,6 +120,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
 
 # Spyder project settings
 .spyderproject
