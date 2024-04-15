@@ -1,13 +1,15 @@
 name: text
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - python=3.8
-  - snorkel
-  - tokenizers=0.10.1
-  - transformers=4.6.1
-  - sentence-transformers
   - notebook
   - jupyter
   - matplotlib
-  - slycot
+  - pip:
+    - snorkel
+    - tokenizers==0.10.1
+    - transformers==4.6.1
+    - sentence-transformers
+    - slycot

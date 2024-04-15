@@ -23,8 +23,8 @@
 
 # Encode all datasets
 
-DATA_PATH="/zfsauton/project/public/chufang/classes/"
-# DATA_PATH = "../datasets/" # Uncomment
+# DATA_PATH="/zfsauton/project/public/chufang/classes/"
+DATA_PATH = "../datasets/" # Uncomment
 
 # DATASETS=('imdb' 'agnews' 'amazon' 'dbpedia')
 DATASETS=('imdb')
