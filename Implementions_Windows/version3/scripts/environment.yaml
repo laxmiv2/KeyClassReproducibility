@@ -1,0 +1,16 @@
+name: text
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip
+  - notebook
+  - jupyter
+  - matplotlib
+  - pip:
+    - snorkel
+    - tokenizers==0.10.1
+    - transformers==4.6.1
+    - sentence-transformers
+    - slycot

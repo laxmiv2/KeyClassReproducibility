@@ -1,0 +1,8 @@
+pytorch>=1.9.1
+cudatoolkit==10.2
+snorkel==0.9.8
+tokenizers==0.10.1
+transformers==4.11.3
+sentence-transformers==2.0.0
+jupyter
+numpy>=1.17.0
