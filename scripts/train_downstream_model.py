@@ -68,6 +68,7 @@ def load_data(args):
                 join(args['data_path'], args['dataset'], f'train_labels.txt'),
                 'r') as f:
             y_train = f.readlines()
+        print(y_train)
         y_train = np.array([int(i.replace('\n', '')) for i in y_train])
         training_labels_present = True
     else:
