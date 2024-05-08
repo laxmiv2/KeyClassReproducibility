@@ -30,7 +30,7 @@ Note: Amazon and DBPedia will not be accessible via the script. Please use the l
 ## Tutorial
 To familiarize yourself with `KeyClass`, there are two tutorials you can leverage. One tutorial was provided by the original authors of the paper located here: following [tutorial](https://github.com/autonlab/KeyClass/blob/main/tutorials/Tutorial%20on%20IMDB.ipynb). 
 
-A more beginner-friendly tutorial can be found here: [Interactive Tutorial]().
+A more beginner-friendly tutorial can be found here: [Interactive Tutorial](https://github.com/laxmiv2/KeyClassReproducibility/blob/9b24edbfdf5e234190d3a4774aebb3841c8c08ce/Interactive%20Tutorial%20Explanation%20of%20KeyClass.ipynb).
 
 <a id="installation"></a>
 ## Installation
