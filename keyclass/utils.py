@@ -218,8 +218,9 @@ def fetch_data(dataset='imdb', path='~/', split='train'):
     text = open(f'{join(path, dataset, split)}.txt').readlines()
 
     if dataset == 'mimic':
-        text = [cleantext(line) for line in text]
-
+        text = [clean_text(line) for line in text]
+        cleaned_sentences = [item for sentence in text for item in sentence if item != '']
+        text = cleaned_sentences
     return text
 
 
@@ -258,8 +259,8 @@ class Parser:
 
     def __init__(
             self,
-            config_file_path='../config_files/default_config.yml',
-            default_config_file_path='../config_files/default_config.yml'):
+            config_file_path='/content/drive/MyDrive/KeyClass/config_files/default_config.yml',
+            default_config_file_path='/content/drive/MyDrive/KeyClass/config_files/default_config.yml'):
         """Class to read and parse the config.yml file
 		"""
         self.config_file_path = config_file_path
