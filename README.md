@@ -1,9 +1,10 @@
 <h1 align="center">KeyClass: Text Classification with Label-Descriptions Only</h1>
-**Reproducibility Study**
-*Laxmi Vijayan, Aganze Mihigo*
-*Team 95*
 
-*Description*
+**Reproducibility Study**  
+*Laxmi Vijayan, Aganze Mihigo*  
+*Team 95*  
+
+*Description*  
 `KeyClass` is a weakly-supervised text classification framework that labels documents using *class-label descriptions* and leveraging pre-trained language models and the data programming framework to assign probabilistic labels. 
 
 The original paper demonstrates the efficacy and flexibility of the KeyClass framework by comparing it to state-of-the-art weak text classifiers across four real-world text classification datasets.
